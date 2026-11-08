@@ -38,6 +38,14 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("counter", counter);
             startActivity(intent);
         });
+        btnActivity3.setOnClickListener(v -> {
+            Intent intent = new Intent(
+                    MainActivity.this,
+                    ThirdActivity.class
+            );
+            intent.putExtra("counter", counter);
+            startActivity(intent);
+        });
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.mainLayout), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
