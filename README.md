@@ -49,15 +49,15 @@ Spodaj so prikazani posnetki zaslona aplikacije in njenih treh aktivnosti.
 <table>
   <tr>
     <td align="center">
-      <img width="230" src="https://github.com/user-attachments/assets/2cca5545-7611-41a8-8b16-a601fececafa" />
+      <img width="240" src="https://github.com/user-attachments/assets/2cca5545-7611-41a8-8b16-a601fececafa" />
       <br><b>MainActivity – prvi zaslon</b>
     </td>
     <td align="center">
-      <img width="230" src="https://github.com/user-attachments/assets/4f80914e-5170-467c-86da-aec7fce1837b" />
+      <img width="240" src="https://github.com/user-attachments/assets/4f80914e-5170-467c-86da-aec7fce1837b" />
       <br><b>HelloActivity – drugi zaslon</b>
     </td>
     <td align="center">
-      <img width="230" src="https://github.com/user-attachments/assets/720d774c-c696-44ef-bab1-376edb1a1ccb" />
+      <img width="240" src="https://github.com/user-attachments/assets/720d774c-c696-44ef-bab1-376edb1a1ccb" />
       <br><b>ThirdActivity – tretji zaslon</b>
     </td>
   </tr>
