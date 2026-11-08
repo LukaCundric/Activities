@@ -46,19 +46,23 @@ Aplikacija vsebuje tri aktivnosti: MainActivity, HelloActivity in ThirdActivity,
 ## Izgled aplikacije
 
 Spodaj so prikazani posnetki zaslona aplikacije in njenih treh aktivnosti.
-<p align="center">
-  <img width="250" height="500" alt="MainActivity" src="https://github.com/user-attachments/assets/2cca5545-7611-41a8-8b16-a601fececafa" />
-  <br>
-  <b>MainActivity – prvi zaslon</b>
-  <br><br>
-  <img width="250" height="500" alt="HelloActivity" src="https://github.com/user-attachments/assets/4f80914e-5170-467c-86da-aec7fce1837b" />
-  <br>
-  <b>HelloActivity – drugi zaslon</b>
-  <br><br>
-  <img width="250" height="500" alt="ThirdActivity" src="https://github.com/user-attachments/assets/720d774c-c696-44ef-bab1-376edb1a1ccb" />
-  <br>
-  <b>ThirdActivity – tretji zaslon</b>
-</p>
+<div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+  <div>
+    <img width="250" height="500" alt="MainActivity" src="https://github.com/user-attachments/assets/2cca5545-7611-41a8-8b16-a601fececafa" />
+    <br>
+    <b>MainActivity – prvi zaslon</b>
+  </div>
+  <div>
+    <img width="250" height="500" alt="HelloActivity" src="https://github.com/user-attachments/assets/4f80914e-5170-467c-86da-aec7fce1837b" />
+    <br>
+    <b>HelloActivity – drugi zaslon</b>
+  </div>
+  <div>
+    <img width="250" height="500" alt="ThirdActivity" src="https://github.com/user-attachments/assets/720d774c-c696-44ef-bab1-376edb1a1ccb" />
+    <br>
+    <b>ThirdActivity – tretji zaslon</b>
+  </div>
+</div>
 
 ## Cilj naloge
 
