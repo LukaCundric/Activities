@@ -1,20 +1,17 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
 
-    <!-- Base application theme -->
-
-    <style name="Base.Theme.Activities" parent="Theme.Material3.DayNight">
+    <style name="Base.Theme.Activities"
+        parent="Theme.AppCompat.Light.DarkActionBar">
 
         <item name="colorPrimary">#4053B5</item>
-        <item name="colorOnPrimary">#FFFFFF</item>
-
-        <item name="colorSurface">#4053B5</item>
-        <item name="colorOnSurface">#FFFFFF</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorAccent">#FFFF00</item>
 
         <item name="android:statusBarColor">#303F9F</item>
         <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
 
     </style>
-
 
     <style name="Theme.Activities"
         parent="Base.Theme.Activities" />
