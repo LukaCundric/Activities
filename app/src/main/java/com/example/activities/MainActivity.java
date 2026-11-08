@@ -1,7 +1,7 @@
 package com.example.activities;
 
 import android.os.Bundle;
-
+import android.content.Intent;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -32,6 +32,11 @@ public class MainActivity extends AppCompatActivity {
         btnCount.setOnClickListener(v -> {
             counter++;
             txtCounter.setText(String.valueOf(counter));
+        });
+        btnActivity2.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, HelloActivity.class);
+            intent.putExtra("counter", counter);
+            startActivity(intent);
         });
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.mainLayout), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
